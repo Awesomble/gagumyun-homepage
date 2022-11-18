@@ -1,3 +1,5 @@
+'use client'
+
 export default function SSR({ formattedDate }) {
     return (
         <>
@@ -6,7 +8,7 @@ export default function SSR({ formattedDate }) {
                 This page is server-side rendered. It was rendered on {formattedDate}.
             </p>
             <p>
-                <a href="/">View a static page.</a>
+                <a href="/Users/aosdinkim/Documents/project/gagumyun-homepage/pages">View a static page.</a>
             </p>
         </>
     );
